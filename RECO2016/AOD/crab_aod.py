@@ -54,8 +54,19 @@ if __name__ == '__main__':
 
     tasks=list()
     
-    tasks.append(('GluGluToMaxmixHToTauTauPlusTwoJets_M125_MG5', '/GluGluToMaxmixHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2017-GEN/dwinterb-GluGluToMaxmixHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2017-PUMIX-5b9cd2c7eef36524de7af1c8e43b0ebc/USER', 'GluGluToMaxmixHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2017-AOD'))
+    #tasks.append(('GluGluToPseudoscalarHToTauTau_M125_MG5', '', 'GluGluToPseudoscalarHToTauTau_M125_13TeV_amcatnloFXFX_pythia8_2016-AOD'))
 
+    tasks.append(('GluGluToHToTauTau_M125_MG5', '', 'GluGluToHToTauTau_M125_13TeV_amcatnloFXFX_pythia8_2016-AOD'))
+
+    tasks.append(('GluGluToMaxmixHToTauTau_M125_MG5', '', 'GluGluToMaxmixHToTauTau_M125_13TeV_amcatnloFXFX_pythia8_2016-AOD'))
+
+####
+
+    #tasks.append(('GluGluToPseudoscalarHToTauTauPlusTwoJets_M125_MG5', '', 'GluGluToPseudoscalarHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-AOD'))
+
+    #tasks.append(('GluGluToHToTauTauPlusTwoJets_M125_MG5', '', 'GluGluToHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-AOD'))
+
+   #tasks.append(('GluGluToMaxmixHToTauTauPlusTwoJets_M125_MG5', '', 'GluGluToMaxmixHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-AOD'))
 
     for task in tasks:
         print task[0]

@@ -7,7 +7,7 @@ config.General.workArea        = 'MiniAOD'
 config.General.transferOutputs = True
 config.General.transferLogs    = True
 config.JobType.numCores = 4
-config.JobType.maxMemoryMB = 5000
+config.JobType.maxMemoryMB = 8000
 
 config.JobType.pluginName = 'ANALYSIS'
 config.JobType.psetName   = 'run_miniaod.py'
@@ -16,7 +16,7 @@ config.Data.inputDBS             = 'phys03'
 config.Data.splitting            = 'EventAwareLumiBased'
 config.Data.unitsPerJob          = 6000
 config.Data.totalUnits           = -1
-config.Data.outLFNDirBase        = '/store/user/%s/MG5MC/' % (getUsernameFromSiteDB())
+config.Data.outLFNDirBase        = '/store/user/%s/MG5MC_2016/' % (getUsernameFromSiteDB())
 config.Data.publication          = True
 config.Data.ignoreLocality      = True
 config.Site.whitelist   = ['T2_*','T1_*','T3_*']
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     tasks=list()
     
 
-    tasks.append(('GluGluToPseudoscalarHToTauTau_M125_MG5', '', 'GluGluToPseudoscalarHToTauTau_M125_13TeV_amcatnloFXFX_pythia8_2017-MiniAOD'))
+    tasks.append(('GluGluToPseudoscalarHToTauTau_M125_MG5', '/GluGluToPseudoscalarHToTauTau_M125_13TeV_amcatnloFXFX_pythia8_2016-GEN/dwinterb-GluGluToPseudoscalarHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-AOD-b1a4edca9adfa7a2e4059536bf605cd7/USER', 'GluGluToPseudoscalarHToTauTau_M125_13TeV_amcatnloFXFX_pythia8_2016-MiniAOD'))
 
     for task in tasks:
         print task[0]

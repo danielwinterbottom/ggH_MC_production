@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
     #tasks.append(('GluGluToPseudoscalarHToTauTauPlusTwoJets_M125_MG5', '/GluGluToPseudoscalarHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-GEN/dwinterb-GluGluToPseudoscalarHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-GEN_RAWSIMoutput-4b482b97529bb9bcba844d7b14c7d7c7/USER', 'GluGluToPseudoscalarHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-PUMIX'))
 
-    #tasks.append(('GluGluToHToTauTauPlusTwoJets_M125_MG5', '', 'GluGluToHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-PUMIX'))
+    #tasks.append(('GluGluToHToTauTauPlusTwoJets_M125_MG5', '/GluGluToHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-GEN/dwinterb-GluGluToHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-GEN_RAWSIMoutput-638a1f29b401ec2f27b6e9a36d7fa4ad/USER', 'GluGluToHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-PUMIX'))
 
     #tasks.append(('GluGluToMaxmixHToTauTauPlusTwoJets_M125_MG5', '/GluGluToMaxmixHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-GEN/dwinterb-GluGluToMaxmixHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-GEN_RAWSIMoutput-1613f7ac5e9090b5d31daff7c7dea7e3/USER', 'GluGluToMaxmixHToTauTauPlusTwoJets_M125_13TeV_amcatnloFXFX_pythia8_2016-PUMIX'))
 
